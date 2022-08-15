@@ -1,0 +1,67 @@
+{
+  "folders": [
+    {
+      "name": "Vscode Plugin",
+      "path": ".\\VSCode-Bedrock-Development-Extension"
+    },
+    {
+      "name": "Schemas",
+      "path": ".\\VSCode-Bedrock-Development-Extension\\minecraft-bedrock-schemas"
+    },
+    {
+      "name": "Mono Repo",
+      "path": "."
+    },
+    {
+      "name": "0. Lib: Bedrock-Types",
+      "path": "./BC-Minecraft-Bedrock-Types"
+    },
+    {
+      "name": "0. Lib: Bedrock-Vanilla-Data",
+      "path": "./BC-Minecraft-Bedrock-Vanilla-Data"
+    },
+    {
+      "name": "0. Lib: Bedrock-Project",
+      "path": "./BC-Minecraft-Bedrock-Project"
+    },
+    {
+      "name": "1. Lib: Molang",
+      "path": "./BC-Minecraft-Molang"
+    },
+    {
+      "name": "2. Lib: Project",
+      "path": "./BC-Minecraft-Project"
+    },
+    {
+      "name": "3. Lib: Bedrock-Diagnoser",
+      "path": "./BC-Minecraft-Bedrock-Diagnoser"
+    },
+    {
+      "name": "Action: Minecraft Bedrock Diagnose",
+      "path": "./action-minecraft-bedrock-diagnose"
+    },
+    {
+      "name": "Action: Create MCWorld",
+      "path": "./MB-Action-Create-MCWorld"
+    },
+    {
+      "name": "Pages: Minecraft-Error-Codes",
+      "path": "./Minecraft-Error-Codes"
+    },
+  ],
+  "settings": {
+    "editor.insertSpaces": true,
+
+    "typescript.tsc.autoDetect": "off",
+    "typescript.preferences.quoteStyle": "single",
+
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+
+    "[typescript]": {
+      "editor.insertSpaces": true
+    },
+    "mocha.subdirectory": "C:\\f:\\Projects\\Blockception\\Software\\VSCode-Bedrock-Development-Extension\\server"
+  }
+}
