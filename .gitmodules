@@ -1,30 +1,40 @@
 [submodule "VSCode-Bedrock-Development-Extension"]
 	path = VSCode-Bedrock-Development-Extension
 	url = https://github.com/Blockception/VSCode-Bedrock-Development-Extension.git
+	branch = main
 [submodule "BC-Minecraft-Molang"]
 	path = BC-Minecraft-Molang
 	url = https://github.com/Blockception/BC-Minecraft-Molang.git
+	branch = main
 [submodule "BC-Minecraft-Bedrock-Types"]
 	path = BC-Minecraft-Bedrock-Types
 	url = https://github.com/Blockception/BC-Minecraft-Bedrock-Types.git
+	branch = main
 [submodule "MB-Action-Create-MCWorld"]
 	path = MB-Action-Create-MCWorld
 	url = https://github.com/Blockception/MB-Action-Create-MCWorld.git
+	branch = main
 [submodule "action-minecraft-bedrock-diagnose"]
 	path = action-minecraft-bedrock-diagnose
 	url = https://github.com/Blockception/action-minecraft-bedrock-diagnose.git
+	branch = main
 [submodule "Minecraft-Error-Codes"]
 	path = Minecraft-Error-Codes
 	url = https://github.com/Blockception/Minecraft-Error-Codes.git
+	branch = main
 [submodule "BC-Minecraft-Bedrock-Vanilla-Data"]
 	path = BC-Minecraft-Bedrock-Vanilla-Data
 	url = https://github.com/Blockception/BC-Minecraft-Bedrock-Vanilla-Data.git
+	branch = main
 [submodule "BC-Minecraft-Bedrock-Project"]
 	path = BC-Minecraft-Bedrock-Project
 	url = https://github.com/Blockception/BC-Minecraft-Bedrock-Project.git
+	branch = main
 [submodule "BC-Minecraft-Bedrock-Diagnoser"]
 	path = BC-Minecraft-Bedrock-Diagnoser
 	url = https://github.com/Blockception/BC-Minecraft-Bedrock-Diagnoser.git
+	branch = main
 [submodule "BC-Minecraft-Project"]
 	path = BC-Minecraft-Project
 	url = https://github.com/Blockception/BC-Minecraft-Project.git
+	branch = main
