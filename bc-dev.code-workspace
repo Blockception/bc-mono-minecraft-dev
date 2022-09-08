@@ -21,16 +21,20 @@
       "path": "./BC-Minecraft-Bedrock-Vanilla-Data"
     },
     {
-      "name": "0. Lib: Bedrock-Project",
-      "path": "./BC-Minecraft-Bedrock-Project"
+      "name": "0. Lib: Minecraft Project",
+      "path": "./BC-Minecraft-Project"
     },
     {
-      "name": "1. Lib: Molang",
+      "name": "1. Lib: Minecraft Bedrock Command",
+      "path": "./BC-Minecraft-Bedrock-Command"
+    },
+    {
+      "name": "1. Lib: Minecraft Molang",
       "path": "./BC-Minecraft-Molang"
     },
     {
-      "name": "2. Lib: Project",
-      "path": "./BC-Minecraft-Project"
+      "name": "2. Lib: Bedrock-Project",
+      "path": "./BC-Minecraft-Bedrock-Project"
     },
     {
       "name": "3. Lib: Bedrock-Diagnoser",
@@ -47,7 +51,7 @@
     {
       "name": "Pages: Minecraft-Error-Codes",
       "path": "./Minecraft-Error-Codes"
-    },
+    }
   ],
   "settings": {
     "editor.insertSpaces": true,

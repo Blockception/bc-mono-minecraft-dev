@@ -38,3 +38,7 @@
 	path = BC-Minecraft-Project
 	url = https://github.com/Blockception/BC-Minecraft-Project.git
 	branch = main
+[submodule "BC-Minecraft-Bedrock-Command"]
+	path = BC-Minecraft-Bedrock-Command
+	url = https://github.com/Blockception/BC-Minecraft-Bedrock-Command.git
+	branch = main
