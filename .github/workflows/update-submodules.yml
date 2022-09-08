@@ -1,0 +1,27 @@
+name: Update Submodules
+on:
+  schedule:
+    - cron: '0 12 * * *'
+
+jobs:
+  update-modules:
+    runs-on: ubuntu-latest
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+      
+      - name: Update Submodules
+        run: |
+          git submodule update --init --recursive
+
+      - name: Commit changes
+        continue-on-error: true
+        run: |
+          cd ${{github.workspace}}
+          git config --global user.email "Blockception@github.com"
+          git config --global user.name "Blockception Bot"
+          git add .
+          git commit -m "auto: generated typescript includes"
+          git push
+
