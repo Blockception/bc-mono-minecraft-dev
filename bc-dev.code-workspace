@@ -66,6 +66,9 @@
     "[typescript]": {
       "editor.insertSpaces": true
     },
-    "mocha.subdirectory": "C:\\f:\\Projects\\Blockception\\Software\\VSCode-Bedrock-Development-Extension\\server"
+    "cSpell.words": [
+      "behaviorpack",
+      "resourcepack"
+    ]
   }
 }
