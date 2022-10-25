@@ -67,9 +67,25 @@
       "editor.insertSpaces": true
     },
     "cSpell.words": [
+      "alwaysday",
       "behaviorpack",
+      "camerashake",
+      "clearspawnpoint",
+      "deop",
+      "gamemode",
+      "gamerule",
       "hasitem",
-      "resourcepack"
+      "playanimation",
+      "playsound",
+      "replaceitem",
+      "resourcepack",
+      "setblock",
+      "setmaxplayers",
+      "setworldspawn",
+      "spawnpoint",
+      "spreadplayers",
+      "stopsound",
+      "tellraw"
     ]
   }
 }
