@@ -85,7 +85,12 @@
       "spawnpoint",
       "spreadplayers",
       "stopsound",
-      "tellraw"
+      "tellraw",
+      "testfor",
+      "testforblock",
+      "tickingarea",
+      "titleraw",
+      "toggledownfall"
     ]
   }
 }
