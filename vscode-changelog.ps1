@@ -1,3 +1,5 @@
+$PSDefaultParameterValues['Out-File:Encoding'] = 'utf8'
+
 ## Set VSCode-Bedrock-Development-Extension/CHANGELOG.md to the last 1 month of git commits
 
 ## Pin file to absolute path
