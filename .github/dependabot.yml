@@ -9,3 +9,15 @@ updates:
     directory: /
     schedule:
       interval: "monthly"
+    groups:
+      all:
+        patterns:
+          - "*"
+  - package-ecosystem: gitsubmodule
+    directory: /
+    schedule:
+      interval: "daily"
+    groups:
+      all:
+        patterns:
+          - "*"
