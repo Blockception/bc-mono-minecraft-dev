@@ -11,9 +11,11 @@ function GenerateReport {
     param($Folder,$Title)
     echo $Title
 
+    echo "" >> $CHANGELOG_FILE
     echo "## $Title">> $CHANGELOG_FILE
     cd $Folder
-    git log --pretty=format:"- %s" -n 20 --invert-grep --grep="auto: " >> $CHANGELOG_FILE
+    git log --pretty=format:"- %s" -n 20 --invert-grep --extended-regexp --grep="auto: |^[0-9]+\.[0-9]+\.[0-9]+(-[0-9]+)?" >> $CHANGELOG_FILE
+    echo " " >> $CHANGELOG_FILE
     cd $PSScriptRoot
 }
 
@@ -30,3 +32,4 @@ cd VSCode-Bedrock-Development-Extension
 git add .
 git commit -m "auto: Updated CHANGELOG.md"
 git push
+cd ..
